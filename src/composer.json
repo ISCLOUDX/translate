@@ -1,0 +1,19 @@
+{
+  "name": "iscms/translate",
+  "description": "BaiduTranslate for laravel5",
+  "authors": [
+    {
+      "name": "Yoruchiaki",
+      "email": "248442142@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "iscms\\Translate\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "guzzlehttp/guzzle": "~5.3|~6.0"
+  }
+}
